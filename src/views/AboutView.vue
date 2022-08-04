@@ -1,9 +1,9 @@
 <script>
 import {useCounterStore} from "../stores/counter";
-import Header1 from "../components/HeaderCom.vue";
+import HeaderCom from "../components/HeaderCom.vue";
 
 export default {
-  components: {Header1},
+  components: {HeaderCom},
   setup() {
     const store = useCounterStore()
     return {store}
@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-  <Header1/>
+  <HeaderCom/>
   <div class="about">
     <h1>ABOUT PAGE</h1>
   </div>
