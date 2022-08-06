@@ -13,7 +13,8 @@ export const useCounterStore = defineStore({
             this.counter++
         },
         decrement() {
-            this.counter--
+            if (this.counter > 0)
+                this.counter--
         }
     }
 })

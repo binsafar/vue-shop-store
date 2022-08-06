@@ -1,9 +1,16 @@
 <script>
 import {useCounterStore} from "../stores/counter";
 import HeaderCom from "../components/HeaderCom.vue";
+import FooterCom from '../components/FooterCom.vue';
+// import axios from 'axios';
 
 export default {
-  components: {HeaderCom},
+  // mounted() {
+  //   axios.get('https://jsonplaceholder.typicode.com/users').then(res => {
+  //     console.log(res.data)
+  //   })
+  // },
+  components: {HeaderCom, FooterCom},
   setup() {
     const store = useCounterStore()
     return {store}
@@ -16,6 +23,7 @@ export default {
   <div class="about">
     <h1>ABOUT PAGE</h1>
   </div>
+  <FooterCom/>
 </template>
 
 <style>

@@ -1,8 +1,9 @@
 <script>
 import HeaderCom from "../components/HeaderCom.vue";
+import FooterCom from '../components/FooterCom.vue';
 
 export default {
-  components: {HeaderCom}
+  components: {HeaderCom, FooterCom}
 }
 </script>
 
@@ -11,9 +12,7 @@ export default {
   <div>
     <h1>SERVICES PAGE</h1>
   </div>
-  <div>
-
-  </div>
+  <FooterCom/>
 </template>
 
 <style>
