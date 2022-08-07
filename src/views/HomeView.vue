@@ -15,11 +15,13 @@ export default {
 
 <template>
   <HeaderCom/>
-  <div>
+  <div class="home">
+
     <h1>HOME PAGE</h1>
     <p>{{ store.counter }}</p>
     <v-btn color="primary" @click="store.increment()">+</v-btn>
     <v-btn color="error" @click="store.decrement()">-</v-btn>
+
   </div>
   <FooterCom/>
 </template>

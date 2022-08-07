@@ -1,10 +1,12 @@
 import {createApp} from 'vue'
 import {createPinia} from 'pinia'
-import './assets/css/global.css'
+
 import App from './App.vue'
 import router from './router'
 import vuetify from './plugins/vuetify'
+
 import {loadFonts} from './plugins/webfontloader'
+import './assets/css/global.css'
 
 loadFonts()
 

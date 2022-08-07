@@ -21,7 +21,9 @@ export default {
 <template>
   <HeaderCom/>
   <div class="about">
+
     <h1>ABOUT PAGE</h1>
+
   </div>
   <FooterCom/>
 </template>

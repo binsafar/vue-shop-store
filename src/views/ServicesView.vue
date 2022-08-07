@@ -9,8 +9,10 @@ export default {
 
 <template>
   <HeaderCom/>
-  <div>
+  <div class="services">
+
     <h1>SERVICES PAGE</h1>
+
   </div>
   <FooterCom/>
 </template>

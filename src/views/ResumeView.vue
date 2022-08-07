@@ -9,8 +9,10 @@ export default {
 
 <template>
   <HeaderCom/>
-  <div>
+  <div class="resume">
+
     <h1>RESUME PAGE</h1>
+
   </div>
   <FooterCom/>
 </template>

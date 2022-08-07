@@ -10,7 +10,9 @@ export default {
 <template>
   <HeaderCom/>
   <div>
+
     <h1>CONTACTS PAGE</h1>
+
   </div>
   <FooterCom/>
 </template>
